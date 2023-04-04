@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Musti",
+    "species": "Dog"
+  },
+  {
+    "id": 2,
+    "name": "Rekku",
+    "species": "Dog"
+  },
+  {
+    "id": 3,
+    "name": "Kepa",
+    "species": "Cat"
+  },
+  {
+    "id": 4,
+    "name": "Murre",
+    "species": "Cat"
+  }
+]
