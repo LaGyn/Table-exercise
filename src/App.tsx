@@ -12,6 +12,7 @@ import Paper from '@mui/material/Paper';
 import pets from './db.json';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import MyTabs from "./CustomTab";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -191,6 +192,7 @@ const petTable = () => {
 function App() {
   return (
     <Container>
+      <MyTabs/>
       <Typography>
         {'Hello world! This is a Table exercise'}
       </Typography>
